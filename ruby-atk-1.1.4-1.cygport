@@ -1,6 +1,3 @@
 inherit rubygem
 
-
-PATCH_URI="01-cygwin.patch"
-
 RUBYGEM_NO_DOC=1
