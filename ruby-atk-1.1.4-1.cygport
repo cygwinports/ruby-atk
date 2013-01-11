@@ -1,3 +1,0 @@
-inherit rubygem
-
-RUBYGEM_NO_DOC=1
