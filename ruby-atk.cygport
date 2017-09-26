@@ -9,6 +9,7 @@ DESCRIPTION="Ruby/ATK is a Ruby binding of ATK."
 HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
 
 PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_atk_REQUIRES="girepository-Atk1.0 ruby-gobject-introspection"
 ruby_atk_OBSOLETES="${NAME}-devel ${NAME}-debuginfo"
 ruby_atk_CONTENTS="${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
 ruby_atk_doc_CONTENTS="${RUBYGEM_DOCDIR#/}"
